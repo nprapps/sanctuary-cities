@@ -25,7 +25,7 @@ COOK COUNTY JAIL -- maybe recently
 
 by year breakdown
      year |       lift_reason        | count
-     ------+--------------------------+-------
+    ------+--------------------------+-------
      2009 | Detainer Declined by LEA |     2
      2010 | Detainer Declined by LEA |     2
      2011 | Detainer Declined by LEA |     1
