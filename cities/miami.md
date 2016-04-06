@@ -114,12 +114,13 @@ MIAMI FED.DET.CENTER | Early Release                     |     1
 
 MIAMI FCI (FORMER MCC) -- no
 
-$ ./facility_breakdown.sh "MIAMI FCI (FORMER MCC)"
-      det_facility      |           lift_reason            | count
-------------------------+----------------------------------+-------
- MIAMI FCI (FORMER MCC) | Booked into Detention            |   257
- MIAMI FCI (FORMER MCC) | Lifted                           |    94
- MIAMI FCI (FORMER MCC) | Case Closed                      |    54
- MIAMI FCI (FORMER MCC) | Transferred                      |     2
- MIAMI FCI (FORMER MCC) | Early Release                    |     2
- MIAMI FCI (FORMER MCC) | Alien Not Subject to Deportation |     1
+|                                                                     |
+|---------------------------------------------------------------------|
+| det_facility      |           lift_reason            | count        |
+| ------------------------+----------------------------------+------- |
+|  MIAMI FCI (FORMER MCC) | Booked into Detention            |   257  |
+|  MIAMI FCI (FORMER MCC) | Lifted                           |    94  |
+|  MIAMI FCI (FORMER MCC) | Case Closed                      |    54  |
+|  MIAMI FCI (FORMER MCC) | Transferred                      |     2  |
+|  MIAMI FCI (FORMER MCC) | Early Release                    |     2  |
+|  MIAMI FCI (FORMER MCC) | Alien Not Subject to Deportation |     1  | 
