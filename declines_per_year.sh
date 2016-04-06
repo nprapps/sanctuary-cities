@@ -1,0 +1,1 @@
+psql sanctuary -c "select to_char(date, 'YYYY') as year, lift_reason, count(*) from requests where det_facility = '$1' and lift_reason = 'Detainer Declined by LEA' group by year, lift_reason order by year, count desc;"
