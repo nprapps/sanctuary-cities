@@ -1,3 +1,5 @@
+python clean.py
+
 echo "Create database"
 dropdb --if-exists sanctuary
 createdb sanctuary
