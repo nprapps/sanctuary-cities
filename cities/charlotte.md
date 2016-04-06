@@ -1,4 +1,4 @@
-US MARSHALS WESTERN DISTRICT
+US MARSHALS WESTERN DISTRICT - no
 
              det_facility         |       lift_reason        | count
     ------------------------------+--------------------------+-------
@@ -8,7 +8,7 @@ US MARSHALS WESTERN DISTRICT
      US MARSHALS WESTERN DISTRICT | Transferred              |     8
      US MARSHALS WESTERN DISTRICT | Detainer Declined by LEA |     3
 
-MECKLENBURG (NC) CO JAIL
+MECKLENBURG (NC) CO JAIL -- no
 
            det_facility       |           lift_reason            | count
     --------------------------+----------------------------------+-------
@@ -21,7 +21,7 @@ MECKLENBURG (NC) CO JAIL
      MECKLENBURG (NC) CO JAIL | Early Release                    |     1
      MECKLENBURG (NC) CO JAIL | Alien Not Subject to Deportation |     1
 
-CHARLOTTE HOLD ROOM
+CHARLOTTE HOLD ROOM 
 
         det_facility     |      lift_reason      | count
     ---------------------+-----------------------+-------

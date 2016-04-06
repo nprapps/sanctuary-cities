@@ -23,3 +23,11 @@ ORLEANS PARISH SHERIFF -- maybe
      ORLEANS PARISH SHERIFF | Early Release            |     3
      ORLEANS PARISH SHERIFF | Transferred              |     2
      ORLEANS PARISH SHERIFF | Case Closed              |     1
+
+by year
+
+  year |       lift_reason        | count
+  ------+--------------------------+-------
+   2013 | Detainer Declined by LEA |    14
+   2014 | Detainer Declined by LEA |     8
+   2015 | Detainer Declined by LEA |     1

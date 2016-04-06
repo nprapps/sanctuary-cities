@@ -18,7 +18,7 @@ DENVER HOLD ROOM -- no
      DENVER HOLD ROOM | Case Closed           |     1
 
 
-DENVER JUSTICE CENTER -- yes, maybe recently
+DENVER JUSTICE CENTER -- yes, recently
 
          det_facility      |            lift_reason            | count
     -----------------------+-----------------------------------+-------
@@ -31,6 +31,17 @@ DENVER JUSTICE CENTER -- yes, maybe recently
      DENVER JUSTICE CENTER | Early Release                     |     1
      DENVER JUSTICE CENTER | Lifted - Lack of Space            |     1
      DENVER JUSTICE CENTER | Alien Not Subject to Deportation  |     1
+
+ by year breakdown
+     year |       lift_reason        | count
+    ------+--------------------------+-------
+    2007 | Detainer Declined by LEA |     1
+    2010 | Detainer Declined by LEA |     2
+    2011 | Detainer Declined by LEA |     2
+    2012 | Detainer Declined by LEA |     4
+    2013 | Detainer Declined by LEA |    19
+    2014 | Detainer Declined by LEA |   314
+    2015 | Detainer Declined by LEA |    95
 
 GILLIAM YOUTH CENTER -- no
 
@@ -47,7 +58,7 @@ DALHIA STREET YOUTH CENTE -- no
     ---------------------------+-----------------------+-------
      DALHIA STREET YOUTH CENTE | Booked into Detention |     1
 
-DENVER COUNTY JAIL -- maybe recently
+DENVER COUNTY JAIL -- yes, recently
 
         det_facility    |       lift_reason        | count
     --------------------+--------------------------+-------
@@ -57,6 +68,17 @@ DENVER COUNTY JAIL -- maybe recently
      DENVER COUNTY JAIL | Lifted                   |    30
      DENVER COUNTY JAIL | Transferred              |    12
      DENVER COUNTY JAIL | Early Release            |     2
+
+by year breakdown
+
+  year |       lift_reason        | count
+  ------+--------------------------+-------
+   2008 | Detainer Declined by LEA |     1
+   2012 | Detainer Declined by LEA |     1
+   2013 | Detainer Declined by LEA |     1
+   2014 | Detainer Declined by LEA |    30
+   2015 | Detainer Declined by LEA |     3
+
 
 REGAL 8 INN -- no
 
