@@ -1,4 +1,4 @@
-BROOKLYN CENTRAL BOOKING -- unsure
+BROOKLYN CENTRAL BOOKING -- 2012
          det_facility       |            lift_reason            | count
   --------------------------+-----------------------------------+-------
    BROOKLYN CENTRAL BOOKING | Booked into Detention             |   701
@@ -60,7 +60,7 @@ US MARSHALS, EDNY -- no
    US MARSHALS, EDNY | Transferred              |    19
    US MARSHALS, EDNY | Prosecutorial Discretion |     1
 
-QUEENS CENTRAL BOOKING -- no
+QUEENS CENTRAL BOOKING -- 2012
 
        det_facility      |           lift_reason            | count
    ------------------------+----------------------------------+-------
@@ -81,7 +81,7 @@ CHILDREN%S VILLAGE -- unsure
  --------------------+-------------+-------
   CHILDREN'S VILLAGE | Case Closed |     1
 
-MANHATTAN CENTRAL BOOKING -- no
+MANHATTAN CENTRAL BOOKING -- 2012
   det_facility        |            lift_reason            | count   ---------------------------+-----------------------------------+-------
   MANHATTAN CENTRAL BOOKING | Booked into Detention             |   654
   MANHATTAN CENTRAL BOOKING | Detainer Declined by LEA          |   270
@@ -93,7 +93,7 @@ MANHATTAN CENTRAL BOOKING -- no
   MANHATTAN CENTRAL BOOKING | Lifted - Lack of Space            |     1
   MANHATTAN CENTRAL BOOKING | United States Citizen Interviewed |     1
 
-RIKERS ISLAND, QUEENS, NY -- no
+RIKERS ISLAND, QUEENS, NY -- 2012
 
     det_facility        |            lift_reason            | count
   ---------------------------+-----------------------------------+-------

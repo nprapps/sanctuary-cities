@@ -1,4 +1,4 @@
-SANTA CLARA CO MAIN JAIL/ -- yes, maybe more recent
+SANTA CLARA CO MAIN JAIL/ -- 2011
 
            det_facility        |            lift_reason            | count
     ---------------------------+-----------------------------------+-------
@@ -13,7 +13,7 @@ SANTA CLARA CO MAIN JAIL/ -- yes, maybe more recent
      SANTA CLARA CO MAIN JAIL/ | Alien Not Subject to Deportation  |     1
      SANTA CLARA CO MAIN JAIL/ | Died                              |     1
 
-SANTA CLARA COUNTY JAIL -- yes
+SANTA CLARA COUNTY JAIL -- 2011
 
           det_facility       |           lift_reason            | count
     -------------------------+----------------------------------+-------
