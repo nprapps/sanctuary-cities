@@ -10,13 +10,13 @@ PACIFIC FURLOUGH FACILITY -- no
 GEORGE BAILEY DETENT FACI -- no
 
        det_facility        |            lift_reason            | count
----------------------------+-----------------------------------+-------
- GEORGE BAILEY DETENT FACI | Booked into Detention             |    37
- GEORGE BAILEY DETENT FACI | Lifted                            |    25
- GEORGE BAILEY DETENT FACI | Case Closed                       |    10
- GEORGE BAILEY DETENT FACI | Transferred                       |     4
- GEORGE BAILEY DETENT FACI | Detainer Declined by LEA          |     2
- GEORGE BAILEY DETENT FACI | United States Citizen Interviewed |     1
+    ---------------------------+-----------------------------------+-------
+     GEORGE BAILEY DETENT FACI | Booked into Detention             |    37
+     GEORGE BAILEY DETENT FACI | Lifted                            |    25
+     GEORGE BAILEY DETENT FACI | Case Closed                       |    10
+     GEORGE BAILEY DETENT FACI | Transferred                       |     4
+     GEORGE BAILEY DETENT FACI | Detainer Declined by LEA          |     2
+     GEORGE BAILEY DETENT FACI | United States Citizen Interviewed |     1
 
 GEO WESTERN REG. DET. FAC. -- no
 
