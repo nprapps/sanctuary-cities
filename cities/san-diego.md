@@ -59,7 +59,7 @@ CASA SAN JUAN -- no
      CASA SAN JUAN | Case Closed           |     1
      CASA SAN JUAN | Lifted                |     1
 
-SAN DIEGO COUNTY JAIL -- maybe recent
+SAN DIEGO COUNTY JAIL -- 2013
 
          det_facility      |            lift_reason            | count
     -----------------------+-----------------------------------+-------
@@ -76,7 +76,7 @@ SAN DIEGO COUNTY JAIL -- maybe recent
      SAN DIEGO COUNTY JAIL | Died                              |     1
      SAN DIEGO COUNTY JAIL | Lifted - Lack of Space            |     1
 
-SAN DIEGO CENTRAL JAIL -- yes
+SAN DIEGO CENTRAL JAIL -- 2013
 
           det_facility      |           lift_reason            | count
     ------------------------+----------------------------------+-------
