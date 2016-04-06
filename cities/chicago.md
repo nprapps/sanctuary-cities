@@ -24,6 +24,7 @@ COOK COUNTY JAIL -- maybe recently
      COOK COUNTY JAIL | Alien Not Subject to Deportation  |     1
 
 by year breakdown
+
      year |       lift_reason        | count
     ------+--------------------------+-------
      2009 | Detainer Declined by LEA |     2
