@@ -1,40 +1,40 @@
 KROME NORTH SPC -- no
 
-det_facility   |           lift_reason            | count
------------------+----------------------------------+-------
-KROME NORTH SPC | Booked into Detention            |  1412
-KROME NORTH SPC | Case Closed                      |   223
-KROME NORTH SPC | Lifted                           |   166
-KROME NORTH SPC | Transferred                      |     6
-KROME NORTH SPC | Early Release                    |     5
-KROME NORTH SPC | Alien Not Subject to Deportation |     3
-KROME NORTH SPC | Detainer Declined by LEA         |     1
+    det_facility   |           lift_reason            | count
+    -----------------+----------------------------------+-------
+    KROME NORTH SPC | Booked into Detention            |  1412
+    KROME NORTH SPC | Case Closed                      |   223
+    KROME NORTH SPC | Lifted                           |   166
+    KROME NORTH SPC | Transferred                      |     6
+    KROME NORTH SPC | Early Release                    |     5
+    KROME NORTH SPC | Alien Not Subject to Deportation |     3
+    KROME NORTH SPC | Detainer Declined by LEA         |     1
 
 TURNER GUIFORD KNIGHT (TGK) JAIL -- yes
 
-det_facility           |       lift_reason        | count
-----------------------------------+--------------------------+-------
-TURNER GUIFORD KNIGHT (TGK) JAIL | Detainer Declined by LEA |   164
-TURNER GUIFORD KNIGHT (TGK) JAIL | Booked into Detention    |    25
-TURNER GUIFORD KNIGHT (TGK) JAIL | Lifted                   |    10
-TURNER GUIFORD KNIGHT (TGK) JAIL | Prosecutorial Discretion |     3
-TURNER GUIFORD KNIGHT (TGK) JAIL | Case Closed              |     2
-TURNER GUIFORD KNIGHT (TGK) JAIL | Transferred              |     1
+    det_facility           |       lift_reason        | count
+    ----------------------------------+--------------------------+-------
+    TURNER GUIFORD KNIGHT (TGK) JAIL | Detainer Declined by LEA |   164
+    TURNER GUIFORD KNIGHT (TGK) JAIL | Booked into Detention    |    25
+    TURNER GUIFORD KNIGHT (TGK) JAIL | Lifted                   |    10
+    TURNER GUIFORD KNIGHT (TGK) JAIL | Prosecutorial Discretion |     3
+    TURNER GUIFORD KNIGHT (TGK) JAIL | Case Closed              |     2
+    TURNER GUIFORD KNIGHT (TGK) JAIL | Transferred              |     1
 
 EVERGALDES CORR. INSTITUTION -- no
 
-det_facility         |      lift_reason      | count
-------------------------------+-----------------------+-------
-EVERGALDES CORR. INSTITUTION | Booked into Detention |    39
-EVERGALDES CORR. INSTITUTION | Lifted                |    13
-EVERGALDES CORR. INSTITUTION | Case Closed           |     1
+    det_facility         |      lift_reason      | count
+    ------------------------------+-----------------------+-------
+    EVERGALDES CORR. INSTITUTION | Booked into Detention |    39
+    EVERGALDES CORR. INSTITUTION | Lifted                |    13
+    EVERGALDES CORR. INSTITUTION | Case Closed           |     1
 
 WOMEN'S DETENTION CENTER
 KROME/MIAMI HUB -- no
 
-det_facility   |      lift_reason      | count
------------------+-----------------------+-------
-KROME/MIAMI HUB | Booked into Detention |     2
+    det_facility   |      lift_reason      | count
+    -----------------+-----------------------+-------
+    KROME/MIAMI HUB | Booked into Detention |     2
 
 US MARSHALS,S.DIST.FL -- no
 
@@ -114,13 +114,11 @@ MIAMI FED.DET.CENTER | Early Release                     |     1
 
 MIAMI FCI (FORMER MCC) -- no
 
-|                                                                     |
-|---------------------------------------------------------------------|
-| det_facility      |           lift_reason            | count        |
-| ------------------------+----------------------------------+------- |
-|  MIAMI FCI (FORMER MCC) | Booked into Detention            |   257  |
-|  MIAMI FCI (FORMER MCC) | Lifted                           |    94  |
-|  MIAMI FCI (FORMER MCC) | Case Closed                      |    54  |
-|  MIAMI FCI (FORMER MCC) | Transferred                      |     2  |
-|  MIAMI FCI (FORMER MCC) | Early Release                    |     2  |
-|  MIAMI FCI (FORMER MCC) | Alien Not Subject to Deportation |     1  | 
+      det_facility      |           lift_reason            | count
+------------------------+----------------------------------+-------
+ MIAMI FCI (FORMER MCC) | Booked into Detention            |   257
+ MIAMI FCI (FORMER MCC) | Lifted                           |    94
+ MIAMI FCI (FORMER MCC) | Case Closed                      |    54
+ MIAMI FCI (FORMER MCC) | Transferred                      |     2
+ MIAMI FCI (FORMER MCC) | Early Release                    |     2
+ MIAMI FCI (FORMER MCC) | Alien Not Subject to Deportation |     1
