@@ -15,10 +15,3 @@ detainer_type varchar
 )"
 
 cat processed/FY*.csv | psql sanctuary -c "COPY requests FROM stdin DELIMITER ',' CSV HEADER;"
-
-echo "Import fed_bp_list table "
-psql sanctuary -c "Create table fed_bp_list
-facility varchar
-)"
-
-psql sanctuary -c "COPY fed_bp_list FROM '`pwd`/dataimport/fed_bp_list.csv' DELIMITER ',' CSV HEADER;"
