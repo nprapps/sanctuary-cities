@@ -13,6 +13,17 @@ SANTA CLARA CO MAIN JAIL/ -- 2011
      SANTA CLARA CO MAIN JAIL/ | Alien Not Subject to Deportation  |     1
      SANTA CLARA CO MAIN JAIL/ | Died                              |     1
 
+
+     by year
+
+     year |       lift_reason        | count
+    ------+--------------------------+-------
+     2011 | Detainer Declined by LEA |    64
+     2012 | Detainer Declined by LEA |    87
+     2013 | Detainer Declined by LEA |   197
+     2014 | Detainer Declined by LEA |   430
+     2015 | Detainer Declined by LEA |    56
+
 SANTA CLARA COUNTY JAIL -- 2011
 
           det_facility       |           lift_reason            | count
@@ -26,6 +37,16 @@ SANTA CLARA COUNTY JAIL -- 2011
      SANTA CLARA COUNTY JAIL | Alien Not Subject to Deportation |     1
      SANTA CLARA COUNTY JAIL | Prosecutorial Discretion         |     1
      SANTA CLARA COUNTY JAIL | Died                             |     1
+
+by year
+
+     year |       lift_reason        | count
+     ------+--------------------------+-------
+      2011 | Detainer Declined by LEA |    38
+      2012 | Detainer Declined by LEA |   199
+      2013 | Detainer Declined by LEA |   269
+      2014 | Detainer Declined by LEA |   164
+      2015 | Detainer Declined by LEA |     4
 
 SNJ HOLD ROOM -- no
 
