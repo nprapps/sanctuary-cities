@@ -10,7 +10,7 @@ KROME NORTH SPC -- no
     KROME NORTH SPC | Alien Not Subject to Deportation |     3
     KROME NORTH SPC | Detainer Declined by LEA         |     1
 
-TURNER GUIFORD KNIGHT (TGK) JAIL -- yes
+TURNER GUIFORD KNIGHT (TGK) JAIL -- yes recently
 
     det_facility           |       lift_reason        | count
     ----------------------------------+--------------------------+-------
@@ -20,6 +20,14 @@ TURNER GUIFORD KNIGHT (TGK) JAIL -- yes
     TURNER GUIFORD KNIGHT (TGK) JAIL | Prosecutorial Discretion |     3
     TURNER GUIFORD KNIGHT (TGK) JAIL | Case Closed              |     2
     TURNER GUIFORD KNIGHT (TGK) JAIL | Transferred              |     1
+
+by year
+
+  year |       lift_reason        | count
+  ------+--------------------------+-------
+   2013 | Detainer Declined by LEA |     1
+   2014 | Detainer Declined by LEA |   126
+   2015 | Detainer Declined by LEA |    37
 
 EVERGALDES CORR. INSTITUTION -- no
 
@@ -95,6 +103,17 @@ DADE COUNTY CORRECTIONAL -- no, though 642 declines
     DADE COUNTY CORRECTIONAL | United States Citizen Interviewed |     3
     DADE COUNTY CORRECTIONAL | Died                              |     2
     DADE COUNTY CORRECTIONAL | Lifted - Lack of Funds            |     1
+
+  by year
+   year |       lift_reason        | count
+  ------+--------------------------+-------
+   2009 | Detainer Declined by LEA |     1
+   2010 | Detainer Declined by LEA |     4
+   2011 | Detainer Declined by LEA |     9
+   2012 | Detainer Declined by LEA |    13
+   2013 | Detainer Declined by LEA |    91
+   2014 | Detainer Declined by LEA |   495
+   2015 | Detainer Declined by LEA |    29
 
 MIAMI FED.DET.CENTER -- no
 

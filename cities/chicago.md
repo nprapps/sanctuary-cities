@@ -23,6 +23,18 @@ COOK COUNTY JAIL -- maybe recently
      COOK COUNTY JAIL | United States Citizen Interviewed |     1
      COOK COUNTY JAIL | Alien Not Subject to Deportation  |     1
 
+by year breakdown
+
+     year |       lift_reason        | count
+    ------+--------------------------+-------
+     2009 | Detainer Declined by LEA |     2
+     2010 | Detainer Declined by LEA |     2
+     2011 | Detainer Declined by LEA |     1
+     2013 | Detainer Declined by LEA |     8
+     2014 | Detainer Declined by LEA |   439
+     2015 | Detainer Declined by LEA |     4
+
+
 CHICAGO HOLD ROOM -- no
 
        det_facility    |           lift_reason            | count
