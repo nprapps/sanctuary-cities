@@ -12,6 +12,13 @@ BROOKLYN CENTRAL BOOKING -- 2012
    BROOKLYN CENTRAL BOOKING | Lifted - Lack of Space            |     1
    BROOKLYN CENTRAL BOOKING | United States Citizen Interviewed |     1
 
+by year
+    year |       lift_reason        | count
+    ------+--------------------------+-------
+    2012 | Detainer Declined by LEA |    54
+    2013 | Detainer Declined by LEA |   245
+    2014 | Detainer Declined by LEA |   197
+    2015 | Detainer Declined by LEA |    14
 
 BROOKLYN CORR.FAC.(BRIG) -- no
          det_facility       |      lift_reason      | count
@@ -74,6 +81,14 @@ QUEENS CENTRAL BOOKING -- 2012
     QUEENS CENTRAL BOOKING | Alien Not Subject to Deportation |     3
     QUEENS CENTRAL BOOKING | Lifted - Lack of Funds           |     1
 
+by year
+
+    year |       lift_reason        | count
+   ------+--------------------------+-------
+    2012 | Detainer Declined by LEA |    83
+    2013 | Detainer Declined by LEA |   345
+    2014 | Detainer Declined by LEA |   291
+    2015 | Detainer Declined by LEA |     6
 
 CHILDREN%S VILLAGE -- unsure
 
@@ -93,6 +108,16 @@ MANHATTAN CENTRAL BOOKING -- 2012
   MANHATTAN CENTRAL BOOKING | Lifted - Lack of Space            |     1
   MANHATTAN CENTRAL BOOKING | United States Citizen Interviewed |     1
 
+
+by year
+
+  year |       lift_reason        | count
+  ------+--------------------------+-------
+   2012 | Detainer Declined by LEA |    32
+   2013 | Detainer Declined by LEA |   121
+   2014 | Detainer Declined by LEA |   106
+   2015 | Detainer Declined by LEA |    11
+
 RIKERS ISLAND, QUEENS, NY -- 2012
 
     det_facility        |            lift_reason            | count
@@ -109,3 +134,17 @@ RIKERS ISLAND, QUEENS, NY -- 2012
   RIKERS ISLAND, QUEENS, NY | Died                              |     8
   RIKERS ISLAND, QUEENS, NY | United States Citizen Interviewed |     5
   RIKERS ISLAND, QUEENS, NY | Lifted - Lack of Funds            |     3
+
+  by year
+
+      year |       lift_reason        | count
+    ------+--------------------------+-------
+     2007 | Detainer Declined by LEA |     6
+     2008 | Detainer Declined by LEA |     9
+     2009 | Detainer Declined by LEA |     5
+     2010 | Detainer Declined by LEA |    26
+     2011 | Detainer Declined by LEA |    39
+     2012 | Detainer Declined by LEA |   155
+     2013 | Detainer Declined by LEA |   158
+     2014 | Detainer Declined by LEA |   492
+     2015 | Detainer Declined by LEA |    12

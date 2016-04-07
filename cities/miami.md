@@ -23,11 +23,11 @@ TURNER GUIFORD KNIGHT (TGK) JAIL -- yes recently
 
 by year
 
-  year |       lift_reason        | count
-  ------+--------------------------+-------
-   2013 | Detainer Declined by LEA |     1
-   2014 | Detainer Declined by LEA |   126
-   2015 | Detainer Declined by LEA |    37
+     year |       lift_reason        | count
+    ------+--------------------------+-------
+     2013 | Detainer Declined by LEA |     1
+     2014 | Detainer Declined by LEA |   126
+     2015 | Detainer Declined by LEA |    37
 
 EVERGALDES CORR. INSTITUTION -- no
 
@@ -105,15 +105,16 @@ DADE COUNTY CORRECTIONAL -- no, though 642 declines
     DADE COUNTY CORRECTIONAL | Lifted - Lack of Funds            |     1
 
   by year
-   year |       lift_reason        | count
-  ------+--------------------------+-------
-   2009 | Detainer Declined by LEA |     1
-   2010 | Detainer Declined by LEA |     4
-   2011 | Detainer Declined by LEA |     9
-   2012 | Detainer Declined by LEA |    13
-   2013 | Detainer Declined by LEA |    91
-   2014 | Detainer Declined by LEA |   495
-   2015 | Detainer Declined by LEA |    29
+
+     year |       lift_reason        | count
+    ------+--------------------------+-------
+     2009 | Detainer Declined by LEA |     1
+     2010 | Detainer Declined by LEA |     4
+     2011 | Detainer Declined by LEA |     9
+     2012 | Detainer Declined by LEA |    13
+     2013 | Detainer Declined by LEA |    91
+     2014 | Detainer Declined by LEA |   495
+     2015 | Detainer Declined by LEA |    29
 
 MIAMI FED.DET.CENTER -- no
 
