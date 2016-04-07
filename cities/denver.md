@@ -33,15 +33,16 @@ DENVER JUSTICE CENTER -- yes, recently
      DENVER JUSTICE CENTER | Alien Not Subject to Deportation  |     1
 
  by year breakdown
-     year |       lift_reason        | count
-    ------+--------------------------+-------
-    2007 | Detainer Declined by LEA |     1
-    2010 | Detainer Declined by LEA |     2
-    2011 | Detainer Declined by LEA |     2
-    2012 | Detainer Declined by LEA |     4
-    2013 | Detainer Declined by LEA |    19
-    2014 | Detainer Declined by LEA |   314
-    2015 | Detainer Declined by LEA |    95
+
+       year |       lift_reason        | count
+      ------+--------------------------+-------
+      2007 | Detainer Declined by LEA |     1
+      2010 | Detainer Declined by LEA |     2
+      2011 | Detainer Declined by LEA |     2
+      2012 | Detainer Declined by LEA |     4
+      2013 | Detainer Declined by LEA |    19
+      2014 | Detainer Declined by LEA |   314
+      2015 | Detainer Declined by LEA |    95
 
 GILLIAM YOUTH CENTER -- no
 
@@ -71,13 +72,13 @@ DENVER COUNTY JAIL -- yes, recently
 
 by year breakdown
 
-  year |       lift_reason        | count
-  ------+--------------------------+-------
-   2008 | Detainer Declined by LEA |     1
-   2012 | Detainer Declined by LEA |     1
-   2013 | Detainer Declined by LEA |     1
-   2014 | Detainer Declined by LEA |    30
-   2015 | Detainer Declined by LEA |     3
+     year |       lift_reason        | count
+    ------+--------------------------+-------
+     2008 | Detainer Declined by LEA |     1
+     2012 | Detainer Declined by LEA |     1
+     2013 | Detainer Declined by LEA |     1
+     2014 | Detainer Declined by LEA |    30
+     2015 | Detainer Declined by LEA |     3
 
 
 REGAL 8 INN -- no
