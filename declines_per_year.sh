@@ -1,3 +1,5 @@
+echo "Find the number declined as a percentage of the total"
+
 psql sanctuary -c "create or replace view declined_requests_by_facility as
 select to_char(date, 'YYYY') as year, det_facility, city, state, count(*)
 from requests
