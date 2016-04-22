@@ -1,4 +1,4 @@
-echo "Create Americans Views"
+echo "Create view of americans geting detainers"
 psql sanctuary -c "create or replace view americans as
 select * from requests
 where lift_reason = 'United States Citizen Interviewed';"
@@ -12,7 +12,7 @@ psql sanctuary -c "create or replace view americans_by_year as
 select to_char(date, 'YYYY') as year, count(*) from americans
 group by year order by count desc;"
 
-echo "Create Residents Views"
+echo "Create view of residents getting detainers"
 psql sanctuary -c "create or replace view residents as
 select * from requests
 where lift_reason = 'Alien Not Subject to Deportation';"
