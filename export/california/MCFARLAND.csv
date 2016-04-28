@@ -1,0 +1,32 @@
+year,det_facility,lift_reason,count
+2007,MCFARLAND CCF,Case Closed,21
+2007,MCFARLAND CCF,Booked into Detention,8
+2007,MCFARLAND CCF,Lifted,8
+2007,MCFARLAND CCF,Early Release,5
+2007,MCFARLAND CCF,Transferred,1
+2008,MCFARLAND CCF,Lifted,75
+2008,MCFARLAND CCF,Booked into Detention,53
+2008,MCFARLAND CCF,Case Closed,47
+2008,MCFARLAND CCF,Early Release,15
+2008,MCFARLAND CCF,Transferred,7
+2009,MCFARLAND CCF,Booked into Detention,72
+2009,MCFARLAND CCF,Lifted,45
+2009,MCFARLAND CCF,Case Closed,14
+2009,MCFARLAND CCF,Transferred,5
+2009,MCFARLAND CCF,Early Release,1
+2010,MCFARLAND CCF,Booked into Detention,132
+2010,MCFARLAND CCF,Lifted,13
+2010,MCFARLAND CCF,Transferred,6
+2010,MCFARLAND CCF,Early Release,2
+2010,MCFARLAND CCF,Case Closed,1
+2010,MCFARLAND CCF,Alien Not Subject to Deportation,1
+2011,MCFARLAND CCF,Booked into Detention,54
+2011,MCFARLAND CCF,Lifted,10
+2011,MCFARLAND CCF,Transferred,4
+2011,MCFARLAND CCF,Case Closed,2
+2012,MCFARLAND CCF,Booked into Detention,38
+2012,MCFARLAND CCF,Lifted,1
+2012,MCFARLAND CCF,Case Closed,1
+2013,MCFARLAND CCF,Booked into Detention,35
+2013,MCFARLAND CCF,Transferred,1
+2014,MCFARLAND CCF,Booked into Detention,21
