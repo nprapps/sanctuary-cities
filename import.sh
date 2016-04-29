@@ -1,6 +1,4 @@
 python clean.py
-python cleancca.py
-
 
 echo "Create database"
 dropdb --if-exists sanctuary
@@ -17,10 +15,6 @@ detainer_type varchar
 )"
 
 cat processed/FY*.csv | psql sanctuary -c "COPY requests FROM stdin DELIMITER ',' CSV HEADER;"
-
-echo "Create database"
-dropdb --if-exists sanctuary
-createdb sanctuary
 
 echo "Import cca_managedonly table"
 psql sanctuary -c "DROP TABLE if exists cca_managedonly;"
@@ -88,3 +82,24 @@ psql sanctuary -c "alter table cca_leased add column cca_involvement varchar;"
 psql sanctuary -c "update cca_leased set cca_involvement = 'leased';"
 
 psql sanctuary -c "alter table cca_leased alter column  cca_involvement set not null;"
+
+
+echo "Import geo table"
+psql sanctuary -c "DROP TABLE if exists geo_federal;"
+psql sanctuary -c "CREATE TABLE geo_federal(
+  pvt_facility varchar,
+  state varchar,
+  capacity varchar
+);"
+
+psql sanctuary -c "COPY geo_federal FROM '`pwd`/processed/geo_federal.csv' DELIMITER ',' CSV HEADER;"
+
+echo "Import geo table"
+psql sanctuary -c "DROP TABLE if exists geo_city;"
+psql sanctuary -c "CREATE TABLE geo_city(
+  pvt_facility varchar,
+  city varchar,
+  state varchar
+);"
+
+psql sanctuary -c "COPY geo_city FROM '`pwd`/processed/geo_city.csv' DELIMITER ',' CSV HEADER;"
