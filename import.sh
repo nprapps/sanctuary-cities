@@ -1,4 +1,5 @@
 python clean.py
+python cleangeo.py
 
 echo "Create database"
 dropdb --if-exists sanctuary
@@ -99,7 +100,25 @@ psql sanctuary -c "DROP TABLE if exists geo_city;"
 psql sanctuary -c "CREATE TABLE geo_city(
   pvt_facility varchar,
   city varchar,
-  state varchar
+  state varchar  
 );"
 
 psql sanctuary -c "COPY geo_city FROM '`pwd`/processed/geo_city.csv' DELIMITER ',' CSV HEADER;"
+
+echo "Import geo table"
+psql sanctuary -c "DROP TABLE if exists geo_state;"
+psql sanctuary -c "CREATE TABLE geo_state(
+  pvt_facility varchar,
+  state varchar,
+  capacity varchar
+);"
+
+psql sanctuary -c "COPY geo_city FROM '`pwd`/processed/geo_state.csv' DELIMITER ',' CSV HEADER;"
+
+echo "Import mtc table"
+psql sanctuary -c "DROP TABLE if exists mtc;"
+psql sanctuary -c "CREATE TABLE mtc(
+  pvt_facility varchar
+);"
+
+psql sanctuary -c "COPY geo_city FROM '`pwd`/raw/mtc.csv' DELIMITER ',' CSV HEADER;"

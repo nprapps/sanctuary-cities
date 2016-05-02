@@ -178,3 +178,36 @@ def writecsv(data, filename):
 if __name__ == '__main__':
     for filename in ['geo_city.csv']:
         process_csv(filename)
+
+        import csv
+        import re
+
+        def process_csv(filename):
+            with open('raw/%s' % filename, 'rU') as f:
+                reader = csv.reader(f)
+                writecsv(reader, filename)
+
+        def writecsv(data, filename):
+            fieldnames = ['pvt_facility','state','capacity']
+            with open('processed/%s' % filename, 'w') as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                for row in data:
+                    # import ipdb
+                    # ipdb.set_trace()
+                    if row[1] == '':
+                        state = row[0]
+                        continue
+                    else:
+                        capacity = row[1]
+                        junk, facility = row[0].split(' ', 1)
+                        facility = facility.strip()
+                    full_row = {
+                         'pvt_facility' : facility,
+                         'state' : state,
+                         'capacity' : capacity
+                    }
+                    writer.writerow(full_row)
+
+        if __name__ == '__main__':
+            for filename in ['geo_state.csv']:
+                process_csv(filename)
