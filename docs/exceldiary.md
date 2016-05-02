@@ -5,4 +5,7 @@
 * for cca_owned_managed i combined B58 and B59 into B57 just because this was the only glitchy anomaly. i then deleted the rows.
 * headers were removed for clarity. I should make arrangements of keeping them and cleaning them instead.
 
-* turned New Mexico Womenâ€™s Correctional  into New Mexico Womens Correctional because this one thing was bugging up my code 
+* turned New Mexico Womenâ€™s Correctional  into New Mexico Womens Correctional because this one thing was bugging up my code
+* got rid of a '.' from D Ray James Correctional Facility and Robert A Deyton Detention Facility from the abbreviations to make it easier for me to code
+* got rid of the header in geo_city.csv and geo_state.csv to make life easier. The first said CITY and the second said STATE
+* 
