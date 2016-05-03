@@ -154,7 +154,7 @@ if __name__ == '__main__':
         process_csv(filename)
 
 def writecsv(data, filename):
-    fieldnames = ['pvt_facility','city','state']
+    fieldnames = ['pvt_facility','state','city']
     with open('processed/%s' % filename, 'w') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         for row in data:
@@ -170,8 +170,9 @@ def writecsv(data, filename):
                state = first_three_col[2].strip()
             full_row = {
                  'pvt_facility' : pvt_facility,
-                 'city' : city,
-                 'state' : state
+                 'state' : state,
+                 'city' : city
+
             }
             writer.writerow(full_row)
 

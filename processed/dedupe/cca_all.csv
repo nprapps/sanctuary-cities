@@ -1,0 +1,76 @@
+pvt_facility,city_or_state,customer,capacity,security_level,facility_type,term,renewal_option,cca_involvement
+Lake City Correctional Facility,"Lake City, Florida",State of Florida,893,Medium ,Medium ,16-Jun,Indefinite,managed
+Marion County Jail,"Indianapolis, Indiana","Marion County, Indiana","1,030",Multi ,Multi ,17-Dec-17,(1) 10 year,managed
+Hardeman County Correctional Facility,"Whiteville, Tennessee",State of Tennessee,"2,016",Medium ,Medium ,17-May,-,managed
+Metro-Davidson County Detention,"Nashville, Tennessee",Davidson Tennessee,"1,348",Multi ,Multi ,20-Jan,-,managed
+Silverdale Facilities,"Chattanooga, Tennessee","Hamilton County,","1,046",Multi ,Multi ,16-Apr,-,managed
+South Central Correctional Center,"Clifton, Tennessee",State of Tennessee,"1,676",Medium ,Medium ,16-Jun,(1) 2 year,managed
+Bartlett State Jail,"Bartlett, Texas",State of Texas,"1,049",Minimum/ Medium ,Minimum/ Medium ,17-Aug,-,managed
+Bradshaw State Jail,"Henderson, Texas",State of Texas,"1,980",Minimum/ Medium ,Minimum/ Medium ,17-Aug,-,managed
+Lindsey State Jail,"Jacksboro, Texas",State of Texas,"1,031",Minimum/ Medium ,Minimum/ Medium ,17-Aug,-,managed
+Willacy State Jail,"Raymondville, Texas",State of Texas,"1,069",Minimum/ Medium ,Minimum/ Medium ,17-Aug,-,managed
+Eloy Detention Center,"Eloy, Arizona",ICE ,"1,500",Medium ,Medium ,Indefinite ,-,owned and managed
+Florence Correctional Center,"Florence, Arizona",USMS ,"1,824",Multi ,Multi ,Sep-18,(2) 5 year,owned and managed
+La Palma Correctional Center,"Eloy, Arizona",State of California ,"3,060",Medium ,Medium ,19-Jun,Indefinite,owned and managed
+Red Rock Correctional Center (D),"Eloy, Arizona",State of Arizona ,"1,596",Medium ,Medium ,24-Jan,(2) 5 year,owned and managed
+CAI Boston Avenue,"San Diego, California",BOP ,120,- ,- ,16-May,-,owned and managed
+Saguaro Correctional Facility,"Eloy, Arizona",State of Hawaii ,"1,896",Medium ,Medium ,16-Jun,-,owned and managed
+CAI Ocean View,"San Diego, California",BOP ,483,- ,- ,16-May,-,owned and managed
+Leo Chesney Correctional Center,"Live Oak, California",- ,240,- ,- ,- ,-,owned and managed
+Otay Mesa Detention Center (E),"San Diego, California",ICE ,"1,482",Minimum/ Medium,Minimum/ Medium,17-Jun,(2) 3 year,owned and managed
+Bent County Correctional Facility,"Las Animas, Colorado",State of Colorado ,"1,420",Medium ,Medium ,16-Jun,-,owned and managed
+Crowley County Correctional Facility,"Olney Springs, Colorado",State of Colorado ,"1,794",Medium ,Medium ,16-Jun,-,owned and managed
+Huerfano County Correctional Center,"Walsenburg, Colorado",- ,752,Medium ,Medium ,- ,-,owned and managed
+Kit Carson Correctional Center,"Burlington, Colorado",State of Colorado ,"1,488",Medium ,Medium ,16-Jun,-,owned and managed
+Coffee Correctional Facility (F),"Nicholls, Georgia",State of Georgia ,"2,312",Medium ,Medium ,16-Jun,(18) 1 year,owned and managed
+Jenkins Correctional Center (F),"Millen, Georgia",State of Georgia ,"1,124",Medium ,Medium ,16-Jun,(19) 1 year,owned and managed
+McRae Correctional Facility,"McRae, Georgia",BOP ,"1,978",Medium ,Medium ,Nov-16,(3) 2 year,owned and managed
+Stewart Detention Center,"Lumpkin, Georgia",ICE ,"1,752",Medium ,Medium ,Indefinite ,-,owned and managed
+Wheeler Correctional Facility (F),"Alamo, Ge orgia",State of Georgia ,"2,312",Medium ,Medium ,16-Jun,(18) 1 year,owned and managed
+Leavenworth Detention Center,"Leavenworth, Kansas",USMS ,"1,033",Maximum ,Maximum ,Dec-16,(2) 5 year,owned and managed
+Lee Adjustment Center,"Beattyville, Kentucky",- ,816,Minimum/ Medium,Minimum/ Medium,- ,-,owned and managed
+Marion Adjustment Center,"St. Mary, Kentucky",- ,826,Minimum/ Medium,Minimum/ Medium,- ,-,owned and managed
+Otter Creek Correctional Center (G),"Wheelwright, Kentucky",- ,656,Minimum/ Medium,Minimum/ Medium,- ,-,owned and managed
+Prairie Correctional Facility,"Appleton, Minnesota",- ,"1,600",Medium ,Medium ,- ,-,owned and managed
+Adams County Correctional Center,"Adams County, Mississippi",BOP ,"2,232",Medium ,Medium ,17-Jul,(1) 2 year,owned and managed
+Tallahatchie County Correctional,Facility (H),State of California,"2,672",Medium ,Medium ,19-Jun,Indefinite,owned and managed
+"Tutwiler, Mississippi",Crossroads Correctional Center (I), State of,, Multi, Multi, Jun-17,,owned and managed
+"Shelby, Montana",Nevada Southern Detention Center,Montana Office of the,, Medium, Medium, September,,owned and managed
+"Pahrump, Nevada",Elizabeth Detention Center,Federal Detention Trustee ICE,, Minimum, Minimum,2020 Aug-16,,owned and managed
+"Elizabeth, New Jersey",Cibola County Corrections Center, BOP,, Medium, Medium, September,,owned and managed
+"Milan, New Mexico",New Mexico Womens Correctional, State of,, Multi, Multi,2016 Jun-16,,owned and managed
+Facility,"Grants, New Mexico",New Mexico ,, , , ,,owned and managed
+Torrance County Detention Facility,"Estancia, New Mexico",USMS ,910,Multi ,Multi ,Indefinite ,-,owned and managed
+Lake Erie Correctional Institution (J),"Conneaut, Ohio",State of Ohio ,"1,798",Medium ,Medium ,Jun-32,Indefinite,owned and managed
+Northeast Ohio Correctional Center,"Youngstown, Ohio",USMS ,"2,016",Medium ,Medium ,Dec-16,(1) 2 year,owned and managed
+Carver Transitional Center,"Oklahoma City, Oklahoma",State of Oklahoma,494,- ,- ,16-Jun,(2) 1 year,owned and managed
+Cimarron Correctional Facility (K),"Cushing, Oklahoma",State of Oklahoma,"1,692",Medium ,Medium ,16-Jun,(3) 1 year,owned and managed
+Davis Correctional Facility (K),"Holdenville, Oklahoma",State of Oklahoma,"1,670",Medium ,Medium ,16-Jun,(3) 1 year,owned and managed
+Diamondback Correctional Facility,"Watonga, Oklahoma",- ,"2,160",Medium ,Medium ,_ ,_,owned and managed
+North Fork Correctional Facility (L),"Sayre, Oklahoma",- ,"2,400",Medium ,Medium ,- ,-,owned and managed
+Tulsa Transitional Center,"Tulsa, Oklahoma",State of Oklahoma,390,- ,- ,16-Jun,(2) 1 year,owned and managed
+Turley Residential Center,"Tulsa, Oklahoma",State of Oklahoma,289,- ,- ,16-Jun,(3) 1 year,owned and managed
+Shelby Training Center,"Memphis, Tennessee",- ,200,- ,- ,- ,-,owned and managed
+Trousdale Turner Correctional Center,"Hartsville, Tennessee",State of Tennessee,"2,552",Multi ,Multi ,Dec-20,-,owned and managed
+West Tennessee Detention Facility,"Mason, Tennessee",USMS ,600,Multi ,Multi ,Sep-16,(6) 2  year,owned and managed
+Whiteville Correctional Facility (M),"Whiteville, Tennessee",State of Tennessee,"1,536",Medium ,Medium ,16-Jun,-,owned and managed
+Austin Residential Re-entry Center,"Del Valle, Texas",BOP ,116,- ,- ,16-Aug,(1) 1 year,owned and managed
+Austin Transitional Center,"Del Valle, Texas",State of Texas ,460,- ,- ,16-Aug,(4) 1 year,owned and managed
+Corpus Christi Transitional Center,"Corpus Christi, Texas",State of Texas ,160,- ,- ,17-Aug,(1) 2 year,owned and managed
+Dallas Transitional Center,"Hutchins, Texas",State of Texas ,300,- ,- ,16-Aug,(4) 1 year,owned and managed
+Eden Detention Center,"Eden, Texas",BOP ,"1,422",Medium ,Medium ,17-Apr,-,owned and managed
+El Paso Multi-Use Facility,"El Paso, Texas",State of Texas ,360,- ,- ,16-Aug,(4) 1 year,owned and managed
+El Paso Transitional Center,"El Paso, Texas",State of Texas ,224,- ,- ,16-Aug,(4) 1 year,owned and managed
+Fort Worth Transitional Center,"Fort Worth, Texas",State of Texas ,248,- ,- ,16-Aug,(4) 1 year,owned and managed
+Houston Processing Center,"Houston, Texas",ICE ,"1,000",Medium ,Medium ,16-Mar,-,owned and managed
+Laredo Processing Center,"Laredo, Texas",ICE ,258,Minimum/ Medium,Minimum/ Medium,18-Jun,-,owned and managed
+South Texas Family Residential Center,"Dilley, Texas",ICE ,"2,400",- ,- ,Sep-18,-,owned and managed
+T. Don Hutto Residential Center,"Taylor, Texas",ICE ,512,Medium ,Medium ,20-Jan,Indefinite,owned and managed
+Webb County Detention Center,"Laredo, Texas",USMS ,480,Medium ,Medium ,Nov-17,-,owned and managed
+Cheyenne Transitional Center,"Cheyenne, Wyoming",State of Wyoming,116,- ,- ,16-Jun,Indefinite,owned and managed
+D.C. Correctional Treatment Facility (N),"Washington, D.C.",District of Columbia,"1,500",Medium ,Medium ,17-Mar,-,owned and managed
+Broad Street Residential Re-entry Center,"Philadelphia, Pennsylvania",Community Education,150,- ,- ,19-Jul,(4) 5 year,leased
+,Chester Residential Re-entry Center,Centers Community,, -, -,,,leased
+Roth Hall Residential Re-entry Center,"Philadelphia, Pennsylvania",Community Education,160,- ,- ,19-Jul,(4) 5 year,leased
+,Walker Hall Residential Re-entry Center,Centers Community,, -, -,,,leased
+Bridgeport Pre-Parole Transfer Facility,"Bridgeport, Texas",MTC ,200,Medium ,Medium ,17-Sep,-,leased
