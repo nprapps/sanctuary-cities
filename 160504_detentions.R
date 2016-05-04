@@ -23,9 +23,16 @@ public_percentages = g %>%
   summarise()
 
 # PUBLIC PRISONS: find out the average percentage for all list_reasons
-public_averages = public_percentages %>%
+public_averages= public_percentages %>%
   group_by(lift_reason) %>%
-  summarise(average=mean(freq))
+  mutate(average=mean(freq))%>%
+  mutate(count=n())%>%
+  mutate(median=median(freq))%>%
+  mutate(sd=sd(freq))%>%
+  group_by(lift_reason,count,average,median,sd) %>%
+  summarise()
+
+
 
 # ------------
 
@@ -42,12 +49,18 @@ private_percentages = f %>%
 # PRIVATE PRISONS: find out the average percentage for all list_reasons
 private_averages = private_percentages %>%
   group_by(lift_reason) %>%
-  summarise(average=mean(freq))
+  mutate(average=mean(freq))%>%
+  mutate(count=n())%>%
+  mutate(median=median(freq))%>%
+  mutate(sd=sd(freq))%>%
+  group_by(lift_reason,count,average,median,sd) %>%
+  summarise()
+
 
 # ------------
 
 # export as csv
-write.csv(private_percentages, file="detentations_percentages.csv")
-write.csv(private_averages, file="detentations_averages.csv")
-write.csv(public_percentages, file="detentations_percentages.csv")
-write.csv(public_averages, file="detentations_averages.csv")
+write.csv(private_percentages, file="private_detentations_percentages.csv")
+write.csv(private_averages, file="private_detentations_averages.csv")
+write.csv(public_percentages, file="public_detentations_percentages.csv")
+write.csv(public_averages, file="public_detentations_averages.csv")
