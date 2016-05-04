@@ -1,14 +1,14 @@
-"","lift_reason","average"
-"1","",58.0269874271229
-"2","Alien Not Subject to Deportation",1.26233313507716
-"3","Booked into Detention",37.3860098320742
-"4","Case Closed",6.53100158280914
-"5","Detainer Declined by LEA",2.4745702660641
-"6","Died",0.613798344020519
-"7","Early Release",1.66173676457265
-"8","Lifted",10.66512620076
-"9","Lifted - Lack of Funds",0.477167576728644
-"10","Lifted - Lack of Space",0.386816572346781
-"11","Prosecutorial Discretion",1.04587912497039
-"12","Transferred",2.42549401467301
-"13","United States Citizen Interviewed",0.953677649559424
+"","lift_reason","average","median"
+"1","",58.0269874271229,59.375
+"2","Alien Not Subject to Deportation",1.26233313507716,0.247729318386384
+"3","Booked into Detention",37.3860098320742,33.7002096436059
+"4","Case Closed",6.53100158280914,3.29804560260586
+"5","Detainer Declined by LEA",2.4745702660641,0.779730058365759
+"6","Died",0.613798344020519,0.144927536231884
+"7","Early Release",1.66173676457265,0.389110949612403
+"8","Lifted",10.66512620076,6.34920634920635
+"9","Lifted - Lack of Funds",0.477167576728644,0.106164769525527
+"10","Lifted - Lack of Space",0.386816572346781,0.10958904109589
+"11","Prosecutorial Discretion",1.04587912497039,0.330976302498404
+"12","Transferred",2.42549401467301,0.933125972006221
+"13","United States Citizen Interviewed",0.953677649559424,0.129533678756477
