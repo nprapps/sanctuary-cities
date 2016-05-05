@@ -50,6 +50,8 @@ This script will find out:
 
 * Run <code> cca_detainercount.sh geo_detainercount.sh mtc_detainercount.sh </code> to find out total overall count of each type of detainer-response of the private facilities
 
+* Run <code> select_private_facility_export.sh </code> 
+
 __3__ __Americans and people not subject to deportation being issued detainers__
 
 * Run <code> american.sh </code> to get americans getting detainers, residents getting detainers 
@@ -58,4 +60,7 @@ __3__ __Americans and people not subject to deportation being issued detainers__
 
 __4__ __What are the sanctuary cities?__
 
+* Run <code> sanctuary.sh </code> to list how many requests were declined by each facility, and the percentage of total requests declined by each facility. The percentage code is not correct and should be used with reservation because it does not include the facilities that have declined everything. 
+
+* Run <code> facility_breakdown.sh </code> to list out the detainer response totals of each facility of a city,state. 
 
