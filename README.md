@@ -36,6 +36,7 @@ Run:
 
 __2__ __How is the behavior of private prisons different from those which are not private?__
 
+* Run csvdedupe to compare the allfacilities.csv table to the private prisons lists. The training files are cca.json, geo.json and mtc.json and it's best to use them rather than starting new training files. 
 * Run <code> total.sh </code>
 
 This script will find out: 
