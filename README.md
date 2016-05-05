@@ -53,6 +53,11 @@ This script will find out:
 
 * Run <code> select_private_facility_export.sh </code> 
 
+_Yet to do_
+
+*  _produce a bird's eye view of the percentage of the total each detainer response is_
+*  _select some private facilities and compare them to some very similar non private facilities. analyze why_
+
 __3__ __Americans and people not subject to deportation being issued detainers__
 
 * Run <code> american.sh </code> to get americans getting detainers, residents getting detainers 
