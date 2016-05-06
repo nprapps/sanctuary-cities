@@ -30,6 +30,11 @@ Run:
 
 <code>california.sh</code>
 
+      - files exported: 
+        - '`pwd`/export/california.csv'
+        - '`pwd`/export/californiacount.csv'
+        - '`pwd`/export/californiayearcount.csv'
+
 * Get a breakdown of all the facilities of each of the cities 
 
 <code>california_facility_year_breakdown.sh</code> 
@@ -37,6 +42,11 @@ Run:
 __2__ __How is the behavior of private prisons different from those which are not private?__
 
 * Run <code> allpvtfacilities.sh </code> to import the lists of the all the private facilities from their raw and standardize them. 
+      - files exported: 
+        - '`pwd`/processed/dedupe/cca_matches.csv'
+        - '`pwd`/processed/dedupe/geo_matches.csv'
+        - '`pwd`/processed/dedupe/mtcmatches.csv'
+
 * Run csvdedupe to compare the allfacilities.csv table to the private prisons lists. The training files are cca.json, geo.json and mtc.json and it's best to use them rather than starting new training files. 
 * Run <code> total.sh </code>
 
@@ -61,9 +71,19 @@ _Yet to do_
 
 __3__ __Americans and people not subject to deportation being issued detainers__
 
-* Run <code> american.sh </code> to get americans getting detainers, residents getting detainers 
+* Run <code> american.sh </code> to export csvs of americans getting detainers, residents getting detainers 
+    - files exported: 
+        - '`pwd`/export/americans.csv'
+        - '`pwd`/export/americans_by_city.csv'
+        - '`pwd`/export/americans_by_state.csv'
+        - '`pwd`/export/americans_by_year.csv' 
 
-* Run <code> americans_export.sh </code> to get americans getting detainers by state, city, year
+* Run <code> americans_export.sh </code> to export csvs of americans getting detainers by state, city, year
+    - files exported: 
+        - '`pwd`/export/residents.csv'
+        - '`pwd`/export/residents_by_city.csv'
+        - '`pwd`/export/residents_by_state.csv'
+        - '`pwd`/export/residents_by_year.csv'
 
 __4__ __What are the sanctuary cities?__
 
