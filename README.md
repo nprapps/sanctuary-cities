@@ -48,11 +48,14 @@ __2__ __How is the behavior of private prisons different from those which are no
         - '`pwd`/processed/dedupe/mtcmatches.csv'
 
 * Run csvdedupe to compare the allfacilities.csv table to the private prisons lists. The training files are cca.json, geo.json and mtc.json and it's best to use them rather than starting new training files. 
-* Run <code> total.sh </code>
+* Run <code> total.sh </code> This script will find out: 
+      - identify the private prisons in the main table
+      - isolate the private prisons into another table thus creating two tables - one containing only pvt facilities and the other containing none
+      - files exported: 
+        - '`pwd`/export/privatefacility/joinpvtfacility.csv'
+        - '`pwd`/export/privatefacility/joinwithrequests.csv'(interim file, not important)
+        - '`pwd`/export/privatefacility/nopvtfacility.csv'
 
-This script will find out: 
-* identify the private prisons in the main table
-* isolate the private prisons into another table thus creating two tables - one containing only pvt facilities and the other containing none
 
 * Run <code> 160504_detentions.R </code> and <code>detentions2PercentagesAndAverages.R</code> to find out the percentage of each type of detainer-response for each facility and the average percentage of each type of detainer response across all facilities. This separates the two into private facilities and non-private facilities. This analysis suffers the problem of the law of large numebrs - we are comparing two datasets of very uneqal sizes.
 
