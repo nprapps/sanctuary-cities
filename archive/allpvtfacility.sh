@@ -39,8 +39,3 @@ psql sanctuary -c "insert into allpvtfacility select det_facility from mtc_match
 psql sanctuary -c "delete from allpvtfacility where det_facility = 'MONTEBELLO POLICE DEPT.' OR
 det_facility = 'GARDEN GROVE POLICE DEPT.' OR
 det_facility = 'BALDWIN PARK POLICE DEPT.';"
-
-psql sanctuary -c "copy(
-select * from allpvtfacility
-);
-"
