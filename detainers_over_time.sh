@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# @TODO THIS IS MISNAMED / CONFUSING / SHOULD BE DELETED
+
 psql sanctuary -c "create or replace view detainers_by_year_and_month as
 select
   to_char(date, 'YYYY-MM') as year_month,
