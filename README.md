@@ -1,96 +1,39 @@
-__Sanctuary Cities__
-====================
+Sanctuary Cities
+================
 
-__Requirements__
-----------------
+What is this?
+-------------
+
+This project began as a much more expansive analysis, captured on the many messy branches that still exist. The current form exists only to calculate a few numbers for an NPR story on U.S. citizens detained by U.S. Immigration and Customs Enforcement (ICE).
+
+This codebase is licensed under the [MIT open source license](http://opensource.org/licenses/MIT). See the ``LICENSE`` file for the complete license.
+
+The data contained in the `data` and `processed` directories were obtained via Freedom of Information Act (FOIA) requests to ICE and is, to the best of our knowledge, in the public domain.
+
+There are two datasets in the `data` directory:
+
+* One is a series of files that compromise all detainers issued to local law enforcement agencies from Oct 1, 2007 to July 19, 2015 and their outcome. In the final database, null `lift_reason` columns are cases that are still pending or for which no paper was filed with ICE. The files belonging to this dataset have filenames that currently begin with `FY`.
+* The other was obtained via FOIA by Jacqueline Stevens from Northwestern University. The file represents all cases of ICE detention where the detainee claimed U.S. citizenship and includes cases completed between 2008 and 2013. The data includes some manual processing from graduate students to string together sequential outcomes for all cases (as the final outcome of many cases is not the initial ruling).
+
+Requirements
+------------
 
 * bash
-* Python
+* Python 2.7 (not tested on Python 3.x)
 * Postgresql
-* csvdedupe ( <code> pip install csvdedupe </code> )
 
-__Import the data__
--------------------
+One shot operation
+------------------
 
-To clean the data and build the tables, run:
+```bash
+./process.sh
+```
 
-<code>import.sh</code> imports from <code>raw/</code> and dumps in <code>processed/</code>
+Individual scripts
+------------------
 
-__Analysis__
--------------------
-
-So far there have been three overarching analysis we have been doing with the sanctuary city data. 
-
-__1__ __What's happening in the counties of San Francisco, Contra Costa, Kern, San Diego ?__
-
-* Make a subset of the cities of the above mentioned counties
-* Get a count of the total number of detainers received by each city
-
-Run:
-
-<code>california.sh</code>
-
-      - files exported: 
-        - '`pwd`/export/california.csv'
-        - '`pwd`/export/californiacount.csv'
-        - '`pwd`/export/californiayearcount.csv'
-
-* Get a breakdown of all the facilities of each of the cities 
-
-<code>california_facility_year_breakdown.sh</code> 
-
-__2__ __How is the behavior of private prisons different from those which are not private?__
-
-* Run <code> allpvtfacilities.sh </code> to import the lists of the all the private facilities from their raw and standardize them. 
-      - files exported: 
-        - '`pwd`/processed/dedupe/cca_matches.csv'
-        - '`pwd`/processed/dedupe/geo_matches.csv'
-        - '`pwd`/processed/dedupe/mtcmatches.csv'
-
-* Run csvdedupe to compare the allfacilities.csv table to the private prisons lists. The training files are cca.json, geo.json and mtc.json and it's best to use them rather than starting new training files. 
-* Run <code> total.sh </code> This script will find out: 
-      - identify the private prisons in the main table
-      - isolate the private prisons into another table thus creating two tables - one containing only pvt facilities and the other containing none
-      - files exported: 
-        - '`pwd`/export/privatefacility/joinpvtfacility.csv'
-        - '`pwd`/export/privatefacility/joinwithrequests.csv'(interim file, not important)
-        - '`pwd`/export/privatefacility/nopvtfacility.csv'
-
-
-* Run <code> 160504_detentions.R </code> and <code>detentions2PercentagesAndAverages.R</code> to find out the percentage of each type of detainer-response for each facility and the average percentage of each type of detainer response across all facilities. This separates the two into private facilities and non-private facilities. This analysis suffers the problem of the law of large numebrs - we are comparing two datasets of very uneqal sizes.
-
-* Run <code> cca_byyear.sh geo_byyear.sh mtcbyyear.sh </code> to find out by-year count of each type of detainer-response of the private facilities
-
-* Run <code> cca_declines_per_year.sh geo_declines_per_year.sh </code> to find out by-year count of how many detainers the private facilities declined
-
-* Run <code> cca_detainercount.sh geo_detainercount.sh mtc_detainercount.sh </code> to find out total overall count of each type of detainer-response of the private facilities
-
-* Run <code> select_private_facility_export.sh </code> 
-
-_Yet to do_
-
-*  _produce a bird's eye view of the percentage of the total each detainer response is_
-*  _select some private facilities and compare them to some very similar non private facilities. analyze why_
-
-__3__ __Americans and people not subject to deportation being issued detainers__
-
-* Run <code> american.sh </code> to export csvs of americans getting detainers, residents getting detainers 
-    - files exported: 
-        - '`pwd`/export/americans.csv'
-        - '`pwd`/export/americans_by_city.csv'
-        - '`pwd`/export/americans_by_state.csv'
-        - '`pwd`/export/americans_by_year.csv' 
-
-* Run <code> americans_export.sh </code> to export csvs of americans getting detainers by state, city, year
-    - files exported: 
-        - '`pwd`/export/residents.csv'
-        - '`pwd`/export/residents_by_city.csv'
-        - '`pwd`/export/residents_by_state.csv'
-        - '`pwd`/export/residents_by_year.csv'
-
-__4__ __What are the sanctuary cities?__
-
-* Run <code> sanctuary.sh </code> to list how many requests were declined by each facility, and the percentage of total requests declined by each facility. The percentage code is not correct and should be used with reservation because it does not include the facilities that have declined everything. 
-
-* Run <code> facility_breakdown.sh </code> to list out the detainer response totals of each facility of a city,state. 
+* ``clean.py``: Clean source data and exported to `processed` directory.
+* ``export.sh``: Run the counter queries, U.S. citizens in ICE custody and U.S. citizens issued detainers while in local law enforcement agency custody.
+* ``ice_detention_counter.py``: Count detentions of U.S. citizens in ICE custody.
+* ``import.sh``: Put the law enforcement agency data into a Postgresql database.
 
