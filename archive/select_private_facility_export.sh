@@ -1,1 +1,0 @@
-psql sanctuary -c "copy(select det_facility, to_char(date, 'YYYY') as year, lift_reason, count(*) from requests where det_facility = '$1' group by year, lift_reason, det_facility order by lift_reason, year desc) to '`pwd`/privatefacility/$1.csv' DELIMITER ',' CSV HEADER;"

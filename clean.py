@@ -4,7 +4,7 @@ import csv
 from datetime import datetime
 import re
 def process_csv(filename):
-    with open('dataimport/%s' % filename, 'rU') as f:
+    with open('data/%s' % filename, 'rU') as f:
         reader = csv.DictReader(f)
         writecsv(reader, filename)
 
