@@ -14,4 +14,9 @@ psql sanctuary -c "CREATE TABLE requests(
     detainer_type varchar
 )"
 
-cat processed/FY*.csv | psql sanctuary -c "COPY requests FROM stdin DELIMITER ',' CSV HEADER;"
+echo "Import data"
+cat processed/lea-detainers*.csv | psql sanctuary -c "COPY requests FROM stdin DELIMITER ',' CSV HEADER;"
+
+echo "Copy and combine additional files"
+csvstack processed/lea-detainers*.csv > processed/lea-detainers-2007_2015.csv
+cp data/ice-detention-outcomes.csv processed/ice-detention-outcomes.csv

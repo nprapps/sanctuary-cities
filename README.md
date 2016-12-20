@@ -22,6 +22,16 @@ Requirements
 * Python 2.7 (not tested on Python 3.x)
 * Postgresql
 
+Installation
+------------
+
+We use virtualenv and virtualenv-wrapper to handle dependencies. [See our development installation guide](http://blog.apps.npr.org/2013/06/06/how-to-setup-a-developers-environment.html).
+
+```bash
+mkvirtualenv sanctuary-cities
+pip install -r requirements.txt
+```
+
 One shot operation
 ------------------
 
